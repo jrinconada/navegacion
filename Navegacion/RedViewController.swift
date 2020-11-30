@@ -1,8 +1,6 @@
 
 import UIKit
 
-var nombreUsuario: String?
-
 class RedViewController: UIViewController {
 
     @IBOutlet weak var nombre: UITextField!
@@ -13,7 +11,8 @@ class RedViewController: UIViewController {
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        nombreUsuario = nombre.text
+        let pantallaAzul = segue.destination as! BlueViewController
+        pantallaAzul.nombreUsuario = nombre.text
     }
 
 }
