@@ -14,6 +14,7 @@
 		DFA49ABE2574E87A00938517 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFA49ABD2574E87A00938517 /* Assets.xcassets */; };
 		DFA49AC12574E87A00938517 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFA49ABF2574E87A00938517 /* LaunchScreen.storyboard */; };
 		DFA49ACB2574EF6100938517 /* BlueViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA49ACA2574EF6100938517 /* BlueViewController.swift */; };
+		DFC9DCC325763AE5005D842A /* YellowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFC9DCC225763AE5005D842A /* YellowViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		DFA49AC02574E87A00938517 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DFA49AC22574E87A00938517 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DFA49ACA2574EF6100938517 /* BlueViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlueViewController.swift; sourceTree = "<group>"; };
+		DFC9DCC225763AE5005D842A /* YellowViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YellowViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				DFA49AB62574E87800938517 /* SceneDelegate.swift */,
 				DFA49AB82574E87800938517 /* RedViewController.swift */,
 				DFA49ACA2574EF6100938517 /* BlueViewController.swift */,
+				DFC9DCC225763AE5005D842A /* YellowViewController.swift */,
 				DFA49ABA2574E87800938517 /* Main.storyboard */,
 				DFA49ABD2574E87A00938517 /* Assets.xcassets */,
 				DFA49ABF2574E87A00938517 /* LaunchScreen.storyboard */,
@@ -144,6 +147,7 @@
 				DFA49AB52574E87800938517 /* AppDelegate.swift in Sources */,
 				DFA49ACB2574EF6100938517 /* BlueViewController.swift in Sources */,
 				DFA49AB72574E87800938517 /* SceneDelegate.swift in Sources */,
+				DFC9DCC325763AE5005D842A /* YellowViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

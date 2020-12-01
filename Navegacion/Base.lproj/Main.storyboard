@@ -108,10 +108,21 @@
         <!--Pantalla amarilla-->
         <scene sceneID="fsC-Si-ZOH">
             <objects>
-                <viewController id="Lyy-Dz-Doh" sceneMemberID="viewController">
+                <viewController id="Lyy-Dz-Doh" customClass="YellowViewController" customModule="Navegacion" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="xSa-8h-AP6">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="USX-zM-eCy">
+                                <rect key="frame" x="98" y="232" width="219" height="41"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <state key="normal" title="A la pantalla principal"/>
+                                <connections>
+                                    <action selector="goToMainScreen:" destination="Lyy-Dz-Doh" eventType="touchUpInside" id="Z8B-ch-UGe"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="hkJ-1M-BUk"/>
                         <color key="backgroundColor" systemColor="systemYellowColor"/>
                     </view>
